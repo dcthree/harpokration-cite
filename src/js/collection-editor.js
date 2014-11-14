@@ -262,7 +262,7 @@
       _ref = $('#collection_form').children();
       for (_i = 0, _len = _ref.length; _i < _len; _i++) {
         child = _ref[_i];
-        if ($(child).attr('id') && ($(child).attr('type') !== 'hidden') && !$(child).attr('id').match(/-clippy$/)) {
+        if ($(child).attr('id') && ($(child).attr('type') !== 'hidden') && !$(child).attr('id').match(/-clippy$/) && ($(child).attr('id') !== 'submit_button')) {
           column_names.push(fusion_tables_escape($(child).attr('id')));
           row_values.push(fusion_tables_escape(get_value_for_form_input(child)));
         }
