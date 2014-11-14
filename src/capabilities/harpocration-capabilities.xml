@@ -22,19 +22,19 @@
             <citeProperty
                 label="Author"
                 name="Author"
-                type="string"/>
+                type="authuser"/>
             <citeProperty
                 label="Text"
                 name="Text"
-                type="markdown"/>
+                type="string"/>
             <citeProperty
                 label="Translation"
                 name="Translation"
-                type="markdown"/>
+                type="string"/>
             <!-- maps to Google String -->
             <citeProperty
                 label="Date"
                 name="Date"
-                type="datetime"/>
+                type="timestamp"/>
         </citeCollection>
     </collectionService>
