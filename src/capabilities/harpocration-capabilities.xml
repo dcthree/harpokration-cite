@@ -4,7 +4,7 @@
 <collectionService xmlns="http://chs.harvard.edu/xmlns/cite">
         <citeCollection
             canonicalId="URN"
-            class="11_Igu6u5961Dkz-cfbJOgKdYkQMwnoe3AQXw8T-K"
+            class="1YOwprxInXb03cho6DQ20jVefAHF6a3fqhj3SGIxk"
             name="harpocration"
             description="Harpocration: Lexicon of the Ten Orators">
             <namespaceMapping
@@ -30,6 +30,10 @@
             <citeProperty
                 label="Translation"
                 name="Translation"
+                type="string"/>
+            <citeProperty
+                label="Notes"
+                name="Notes"
                 type="string"/>
             <!-- maps to Google String -->
             <citeProperty
